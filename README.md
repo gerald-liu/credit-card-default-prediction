@@ -1,4 +1,4 @@
-# Default payments of credit card clients
+# Default Payments of Credit Card Clients
 Course project of ISOM 3360, 2020 Spring, HKUST
 
 ## Business Problem
