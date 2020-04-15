@@ -24,7 +24,7 @@ Our project aims to help credit card companies in Taiwan to detect the potential
 
 ## Data Source
 
-UCI Machine Learning Repository ([https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients](https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients)):
+The dataset is collected from [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients).
 
 This dataset contains information on default payments, demographic factors, credit data, history of payment, and bill statements of credit card clients in Taiwan from April 2005 to September 2005.
 
@@ -34,7 +34,7 @@ This dataset contains information on default payments, demographic factors, cred
 | --- | --- | --- |
 | 1 (3.27 - 4.2) | Data cleaning, missing values handling | 3.31 Status meeting 1 |
 | 2 (4.3 - 4.9) | Feature selection and engineering |   |
-| 3 (4.10 - 4.16) | Preliminary model and evaluation | 4.16 Progress report |
+| 3 (4.10 - 4.16) | Preliminary model and evaluation | 4.16 [Progress report](https://github.com/gerald-liu/credit-card-default-prediction/blob/master/Progress_Report.md) |
 | 4 (4.17 - 4.23) | Preliminary parameter tuning | 4.21/23 Status meeting 2 |
 | 5 (4.24 - 4.30) | Alternative model |   |
 | 6 (5.1 - 5.7) | Model selection and parameter tuning |   |
