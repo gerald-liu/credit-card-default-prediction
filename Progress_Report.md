@@ -1,13 +1,5 @@
 # Progress Report
-## Project Topic
-### Problem
 
-Binary classification for default prediction on next-month credit card repayment.
-
-### Features
-
-- Age, sex, marriage, education level, total given credit;
-- Repayment status, bill statement amounts, and repayment amounts in the previous 6 months.
 ## Current Progress
 ### Data understanding
 
@@ -22,34 +14,23 @@ Binary classification for default prediction on next-month credit card repayment
 - One-hot encode categorical features (Sex, Marriage, Education level).
 - Normalize the feature values for logistics regression with min-max scaling.
 - Plot histograms and boxplots to find the distribution of feature values.
-- Group the samples by their gender and age and find that:.
+- Group the samples by their gender and age and find that:
   - People in their 30s and 40s have a lower probability of default;
   - For most age groups, men have a higher probability of default than women.
 
-![](res/progress_report_1.png)
+<img src="res/progress_report_age_and_sex.png" style="zoom: 67%;" />
 
 ### Preliminary modeling
 
-- Use 10-fold cross validation to build our model and find the best parameters.
-- Decision Tree Model
-  - Tune hyperparameters from a grid with cross validation and find the best ones as follows:
-
-![](res/progress_report_2.png)
-
-- Logistic Regression Model
-  - Apply L1-regularization:
-
-![](res/progress_report_3.png) 
+- Use 10-fold cross validation to train our model.
+- Decision Tree Model: tune hyperparameters from a grid with cross validation.
+- Logistic Regression Model: apply L1-regularization.
 
 ### Model evaluation
 
-- Decision Tree Model
-
-![](res/progress_report_4.png)
-
-- Logistic Regression Model
-
-![](https://uploader.shimo.im/f/rOlPxRFWYWhmjyeh.png!thumbnail)
+| Decision Tree                                     | Logistic Regression                          |
+| ------------------------------------------------- | -------------------------------------------- |
+| ![](res/progress_report_decision_tree_report.png) | ![](res/progress_report_logistic_report.png) |
 
 The decision tree model slightly outperforms the logistic regression one.
 
