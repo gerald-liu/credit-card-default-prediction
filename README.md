@@ -1,6 +1,8 @@
 # Default Payments of Credit Card Clients
 Course project of ISOM 3360, 2020 Spring, HKUST
 
+**Grade: A+**
+
 ## Business Problem
 
 Nowadays, the use of credit card becomes an integral part of modern economies. Still, default on credit card payment is considered to be a crucial problem globally. Default on credit card payment is failure to make debt payment by the due date. This may happen due to a sudden change in a person&#39;s income source such as sudden job loss, inability to work, or some health issues. It may also be deliberate, when people intentionally use the credit card, knowing they could not afford to repay loans later, until the bank stopped their cards.
